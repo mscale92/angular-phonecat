@@ -3,7 +3,7 @@
 <!-- ng-app refers to an angular directive, or component if you will
 The directive is written as ngApp and the attribute in the html tag is written as
 ng-app 
-This element is the root element of the application, like the root directory. This is the html tag of course since it is parent to all other tags in the html document-->
+This element is the root element of the application, like the root directory. This is the html tag since it is parent to all other tags in the html document and our entire page is an application-->
   <head>
     <meta charset="utf-8">
     <title>My HTML File</title>
@@ -13,6 +13,8 @@ This element is the root element of the application, like the root directory. Th
   <body>
 
     <p>Nothing here {{'yet' + '!'}}</p>
-
+<!-- The curly brackets are called a binding
+They are used to update content multiple times, so the yet! is not hard-coded, it has the capabilities to change -->
+	<p>1 + 2 = {{1+2}}</p>
   </body>
 </html>
